@@ -1,2 +1,2 @@
 # Cool-Peluqueros
-Tu peluqueria y centro de belleza en Rivas
+Unfinished: project for a beauty salon
