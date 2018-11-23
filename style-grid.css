@@ -118,8 +118,6 @@ padding: 0;
 }
 .banner{
     background: rgba(66, 64, 64, 0.288);
-    /* align-self: center;
-    justify-self: center; */
 }
 
 .banner h3{
@@ -380,6 +378,15 @@ align-items: center;
     .big-banner{
         margin-top: 10px;
     }
+    .big-banner-title h1{
+        text-align: center;
+    }
+    .banners{
+        display: inline-block;
+    }
+    .banner{
+        padding: 0 20px 0 20px;
+    }
     #optional{
         display: none;
     }
@@ -406,9 +413,15 @@ align-items: center;
         padding: 20px;
 
        }
-}
+    footer{
+        display: none;
+    }
+    #container-contacto{
+        margin: -100px 0 0 0;
 
-@media (max-width:1200px){
+}
+}
+@media (max-width:1200px) {
     #img-nuestro-salon{
         display: none;
     }
@@ -416,6 +429,9 @@ align-items: center;
         display: grid;
         grid-template-columns: 1fr;
         grid-auto-rows: repeat(auto, 1fr)
+    }
+    .salon{
+        padding: 0;
     }
     #salon3{
         display:none;
